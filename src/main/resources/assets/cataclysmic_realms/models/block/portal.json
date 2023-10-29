@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "cataclysmic_realms:block/portal2",
+    "particle": "cataclysmic_realms:block/portal2"
+  },
+  "render_type": "solid"
+}

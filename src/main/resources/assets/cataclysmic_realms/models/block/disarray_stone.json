@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cataclysmic_realms:block/chaosdirtbelow",
+    "up": "cataclysmic_realms:block/chaosdirttop",
+    "north": "cataclysmic_realms:block/chaosdirt",
+    "east": "cataclysmic_realms:block/chaosdirt",
+    "south": "cataclysmic_realms:block/chaosdirt",
+    "west": "cataclysmic_realms:block/chaosdirt",
+    "particle": "cataclysmic_realms:block/chaosdirtbelow"
+  },
+  "render_type": "solid"
+}

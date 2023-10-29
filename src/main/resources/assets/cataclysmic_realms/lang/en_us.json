@@ -1,0 +1,13 @@
+{
+  "fluid.cataclysmic_realms.chaos_fluid": "Chaos Fluid",
+  "biome.cataclysmic_realms.chaos_biome": "Chaos",
+  "item.cataclysmic_realms.chaos_catalyst": "Chaos Catalyst",
+  "gui.cataclysmic_realms.key.tooltip_insert_here_the_key_to_access_th": "Insert here the key to access the dimension",
+  "gui.cataclysmic_realms.key.label_to_access_the_dimension": "To access the dimension",
+  "item_group.cataclysmic_realms.cataclysmic_realms_creative_tab": "Cataclysmic Realms",
+  "block.cataclysmic_realms.entropy_stone": "Entropy Stone",
+  "block.cataclysmic_realms.portal": "Chaos Portal Block",
+  "block.cataclysmic_realms.chaos_fluid": "Chaos Fluid",
+  "block.cataclysmic_realms.disarray_stone": "Disarray Stone",
+  "gui.cataclysmic_realms.key.label_insert_key": "Insert Key"
+}

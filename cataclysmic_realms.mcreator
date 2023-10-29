@@ -1,0 +1,339 @@
+{
+  "mod_elements": [
+    {
+      "name": "CataclysmicRealmsCreativeTab",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cataclysmic_realms_creative_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "EntropyStone",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entropy_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cataclysmic_realms/models/block/entropy_stone.json",
+          "src/main/java/net/mcreator/cataclysmicrealms/block/EntropyStoneBlock.java",
+          "src/main/resources/data/cataclysmic_realms/worldgen/placed_feature/entropy_stone.json",
+          "src/main/resources/data/cataclysmic_realms/forge/biome_modifier/entropy_stone_biome_modifier.json",
+          "src/main/resources/assets/cataclysmic_realms/blockstates/entropy_stone.json",
+          "src/main/resources/assets/cataclysmic_realms/models/item/entropy_stone.json",
+          "src/main/resources/data/cataclysmic_realms/worldgen/configured_feature/entropy_stone.json",
+          "src/main/java/net/mcreator/cataclysmicrealms/world/features/ores/EntropyStoneFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "ChaosFluid",
+      "type": "fluid",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chaos_fluid",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cataclysmic_realms/models/block/chaos_fluid.json",
+          "src/main/resources/assets/cataclysmic_realms/models/item/chaos_fluid_bucket.json",
+          "src/main/java/net/mcreator/cataclysmicrealms/fluid/types/ChaosFluidFluidType.java",
+          "src/main/java/net/mcreator/cataclysmicrealms/fluid/ChaosFluidFluid.java",
+          "src/main/java/net/mcreator/cataclysmicrealms/block/ChaosFluidBlock.java",
+          "src/main/resources/assets/cataclysmic_realms/blockstates/chaos_fluid.json"
+        ]
+      }
+    },
+    {
+      "name": "DisarrayStone",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "disarray_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cataclysmic_realms/models/item/disarray_stone.json",
+          "src/main/resources/data/cataclysmic_realms/worldgen/configured_feature/disarray_stone.json",
+          "src/main/resources/data/cataclysmic_realms/forge/biome_modifier/disarray_stone_biome_modifier.json",
+          "src/main/java/net/mcreator/cataclysmicrealms/block/DisarrayStoneBlock.java",
+          "src/main/resources/data/cataclysmic_realms/worldgen/placed_feature/disarray_stone.json",
+          "src/main/java/net/mcreator/cataclysmicrealms/world/features/ores/DisarrayStoneFeature.java",
+          "src/main/resources/assets/cataclysmic_realms/blockstates/disarray_stone.json",
+          "src/main/resources/assets/cataclysmic_realms/models/block/disarray_stone.json"
+        ]
+      }
+    },
+    {
+      "name": "ChaosBiome",
+      "type": "biome",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chaos_biome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cataclysmic_realms/worldgen/placed_feature/chaos_biome_tree.json",
+          "src/main/java/net/mcreator/cataclysmicrealms/world/features/treedecorators/ChaosBiomeLeaveDecorator.java",
+          "src/main/java/net/mcreator/cataclysmicrealms/world/features/treedecorators/ChaosBiomeFruitDecorator.java",
+          "src/main/resources/data/cataclysmic_realms/worldgen/biome/chaos_biome.json",
+          "src/main/java/net/mcreator/cataclysmicrealms/world/features/treedecorators/ChaosBiomeTrunkDecorator.java",
+          "src/main/resources/data/cataclysmic_realms/worldgen/configured_feature/chaos_biome_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "ChaosDimension",
+      "type": "dimension",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chaos_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cataclysmicrealms/world/dimension/ChaosDimensionDimension.java",
+          "src/main/resources/data/cataclysmic_realms/dimension_type/chaos_dimension.json",
+          "src/main/resources/data/cataclysmic_realms/dimension/chaos_dimension.json"
+        ]
+      }
+    },
+    {
+      "name": "PortalEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portal_entity_collides_in_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cataclysmicrealms/procedures/PortalEntityCollidesInTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Portal",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cataclysmicrealms/block/PortalBlock.java",
+          "src/main/resources/assets/cataclysmic_realms/blockstates/portal.json",
+          "src/main/resources/assets/cataclysmic_realms/models/block/portal.json",
+          "src/main/resources/assets/cataclysmic_realms/models/item/portal.json"
+        ]
+      }
+    },
+    {
+      "name": "PortalCreation",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portal_creation",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cataclysmicrealms/procedures/PortalCreationProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "SendTime",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "send_time",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cataclysmicrealms/procedures/SendTimeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Time",
+      "type": "command",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "time",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cataclysmicrealms/command/TimeCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Key",
+      "type": "gui",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "key",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cataclysmicrealms/world/inventory/KeyMenu.java",
+          "src/main/java/net/mcreator/cataclysmicrealms/network/KeySlotMessage.java",
+          "src/main/java/net/mcreator/cataclysmicrealms/client/gui/KeyScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "Maybe",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maybe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cataclysmicrealms/procedures/MaybeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Open",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cataclysmicrealms/procedures/OpenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChaosCatalyst",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chaos_catalyst",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cataclysmic_realms/models/item/chaos_catalyst.json",
+          "src/main/java/net/mcreator/cataclysmicrealms/item/ChaosCatalystItem.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "fluid.cataclysmic_realms.chaos_fluid": "Chaos Fluid",
+      "biome.cataclysmic_realms.chaos_biome": "Chaos",
+      "item.cataclysmic_realms.chaos_catalyst": "Chaos Catalyst",
+      "gui.cataclysmic_realms.key.tooltip_insert_here_the_key_to_access_th": "Insert here the key to access the dimension",
+      "gui.cataclysmic_realms.key.label_to_access_the_dimension": "To access the dimension",
+      "item_group.cataclysmic_realms.cataclysmic_realms_creative_tab": "Cataclysmic Realms",
+      "block.cataclysmic_realms.entropy_stone": "Entropy Stone",
+      "block.cataclysmic_realms.portal": "Chaos Portal Block",
+      "block.cataclysmic_realms.chaos_fluid": "Chaos Fluid",
+      "block.cataclysmic_realms.disarray_stone": "Disarray Stone",
+      "gui.cataclysmic_realms.key.label_insert_key": "Insert Key"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "cataclysmic_realms",
+    "modName": "Cataclysmic Realms",
+    "version": "1.0.0",
+    "author": "The_WereF0X",
+    "websiteURL": "https://discord.gg/3CMa2f5jzS",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "updateURL": "https://discord.gg/3CMa2f5jzS",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "The_WereF0X",
+    "modElementsPackage": "net.mcreator.cataclysmicrealms",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

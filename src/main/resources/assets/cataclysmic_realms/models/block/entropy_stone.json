@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cataclysmic_realms:block/main",
+    "up": "cataclysmic_realms:block/main",
+    "north": "cataclysmic_realms:block/main",
+    "east": "cataclysmic_realms:block/main",
+    "south": "cataclysmic_realms:block/main",
+    "west": "cataclysmic_realms:block/main",
+    "particle": "cataclysmic_realms:block/main"
+  },
+  "render_type": "solid"
+}

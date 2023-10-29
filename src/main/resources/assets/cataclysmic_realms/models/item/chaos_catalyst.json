@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "cataclysmic_realms:item/itemtextureamulet_of_the_trade"
+  }
+}
